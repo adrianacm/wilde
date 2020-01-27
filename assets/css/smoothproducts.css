@@ -1,0 +1,357 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navigation-clean {
+  background: #2b2f31;
+  padding-top: 1rem;
+  padding-bottom: .75rem;
+  color: #2b2f31;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+
+}
+
+.account{
+color: #38876F;
+padding-top: 10px ;
+}
+
+.navrows {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+
+  
+}
+
+.login {
+  
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 320px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+
+ 
+}
+
+.formspace{
+  margin-bottom: 20px;
+  border-color: rgba(56, 135, 118, 0.75);
+ 
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px 0 53px;
+  
+}
+
+.btn-lg {
+  border-color: white;
+  height: 50px;
+  width: 160px;
+  align-self: center;
+  border-radius: 25px;
+}
+
+.support{
+  border: white;
+  border-style: solid;
+  border-width: 1px;
+
+}
+
+.text{
+  padding: 30px   !important;
+}
+
+@media (min-width:768px) {
+  .navigation-clean {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+  }
+}
+
+.nav-profiledetails{
+  display: flex;
+margin-right: auto;
+list-style: none;
+
+}
+
+.navigation-clean .navbar-brand {
+  font-weight: bold;
+  color: inherit;
+}
+
+.navigation-clean .navbar-brand:hover {
+  color: #2b2f31;
+}
+
+.navigation-clean.navbar-dark .navbar-brand:hover {
+  color: #f0f0f0;
+}
+
+.navigation-clean .navbar-toggler {
+  border-color: #ddd;
+}
+
+.navigation-clean .navbar-toggler:hover, .navigation-clean .navbar-toggler:focus {
+  background: none;
+}
+
+.navigation-clean.navbar-dark .navbar-toggler {
+  border-color: #555;
+}
+
+.navigation-clean .navbar-toggler {
+  color: #888;
+}
+
+.navigation-clean.navbar-dark .navbar-toggler {
+  color: #eee;
+}
+
+.navigation-clean .navbar-collapse, .navigation-clean .form-inline {
+  border-top-color: #ddd;
+
+}
+
+.navigation-clean.navbar-dark .navbar-collapse, .navigation-clean.navbar-dark .form-inline {
+  border-top-color: #2b2f31;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navigation-clean .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: none;
+  background-color: #fff;
+  border-radius: 2px;
+  
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
+  line-height: 2;
+  color: #2b2f31;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {
+  background: #eee;
+  color: inherit;
+}
+
+.navigation-clean.navbar-dark {
+  background-color: #2b2f31;
+  color: #fff;
+}
+
+.navigation-clean.navbar-dark .navbar-nav a.active, .navigation-clean.navbar-dark .navbar-nav a.active:focus, .navigation-clean.navbar-dark .navbar-nav a.active:hover {
+  color: #8f8f8f;
+  box-shadow: none;
+  background: none;
+  pointer-events: none;
+}
+
+.navigation-clean.navbar-dark .navbar-nav .nav-link {
+  color: #dfe8ee;
+}
+
+.navigation-clean.navbar-dark .navbar-nav .nav-link:focus, .navigation-clean.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.navigation-clean.navbar-dark .navbar-nav > li > .dropdown-menu {
+  background-color: #2b2f31;
+}
+
+.navigation-clean.navbar-dark .dropdown-menu .dropdown-item:focus, .navigation-clean.navbar-dark .dropdown-menu .dropdown-item {
+  color: #f2f5f8;
+}
+
+.navigation-clean.navbar-dark .dropdown-menu .dropdown-item:focus, .navigation-clean.navbar-dark .dropdown-menu .dropdown-item:hover {
+  background: #363739;
+}
+
+
+
+.sp-loading {
+  text-align: center;
+  max-width: 270px;
+  padding: 15px;
+  border: 5px solid #eee;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #888;
+}
+
+.sp-wrap {
+  display: none;
+  line-height: 0;
+  font-size: 0;
+  background: #eee;
+  border: 5px solid #eee;
+  border-radius: 3px;
+  position: relative;
+  margin: 0 25px 15px 0;
+  float: left;
+  max-width: 300px;
+}
+
+.sp-thumbs {
+  text-align: left;
+  display: inline-block;
+}
+
+.sp-thumbs img {
+  min-height: 50px;
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.sp-thumbs a:link, .sp-thumbs a:visited {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  opacity: .3;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.sp-thumbs a:hover {
+  opacity: 1;
+}
+
+.sp-thumbs a:active, .sp-current {
+  opacity: 1!important;
+  position: relative;
+}
+
+.sp-large {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.sp-large a img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sp-large a {
+  display: block;
+}
+
+.sp-zoom {
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+  display: none;
+}
+
+.sp-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, .9);
+  z-index: 1031;
+  display: none;
+  cursor: pointer;
+}
+
+.sp-lightbox img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 90%;
+  max-height: 90%;
+  border: 2px solid #fff;
+}
+
+#sp-prev, #sp-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 501;
+  color: #fff;
+  padding: 14px;
+  text-decoration: none;
+  background: #000;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  transition: .2s;
+}
+
+#sp-prev {
+  left: 10px;
+}
+
+#sp-prev:before {
+  content: '';
+  border: 7px solid transparent;
+  border-right: 15px solid #fff;
+  position: absolute;
+  top: 16px;
+  left: 7px;
+}
+
+#sp-next {
+  right: 10px;
+}
+
+#sp-next:before {
+  content: '';
+  border: 7px solid transparent;
+  border-left: 15px solid white;
+  position: absolute;
+  top: 16px;
+  left: 18px;
+}
+
+#sp-prev:hover, #sp-next:hover {
+  background: #444;
+}
+
+@media screen and (max-width: 400px) {
+  .sp-wrap {
+    margin: 0 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #sp-prev, #sp-next {
+    top: auto;
+    margin-top: 0;
+    bottom: 25px;
+  }
+}
+
