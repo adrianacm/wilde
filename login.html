@@ -10,27 +10,30 @@
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-xl bg-dark navigation-clean ">
-        <div class="container "><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse " id="navcol-1">
-                <img class="rounded-circle img-fluid" src="assets/img/WhatsApp%20Image%202019-12-09%20at%2019.44.27.jpeg" width="100px" height="100px">
+                <img class="img-fluid p-0 logoimg" src="assets/img/Woodlands.png" width="110px" height="110px">
+                <h1 class="logo">WILDE</h1>
                 <div class="navrows">
                 <div class="profiledetails">
                     <ul class="nav-profiledetails">
                         <li class="nav-item" role="presentation"><a class="nav-link account" href="#">Hello, account name</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><img  src="assets/img/search.png" width="30px" height="30px"></a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><img  src="assets/img/help.png" width="30px" height="34px"></a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><img  src="assets/img/bell.png" width="28px" height="30px"></a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><img  src="assets/img/logout.png" width="30px" height="30px"></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="login.html"><img  src="assets/img/logout.png" width="30px" height="30px"></a></li>
                     </ul>
                 </div>
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Modules</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="module-page.html">Modules</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Timetable</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><img  src="assets/img/search.png" width="30px" height="30px"></a></li>
                         <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
                     </li>
                 </ul>
@@ -39,8 +42,8 @@
         </div>
     </nav>
     
-    <main class="page landing-page">
-        <section class="clean-block clean-hero row " style="background-image:url(&quot;assets/img/tech/image4.jpg&quot;);color:rgba(255, 255, 255, 0.30);">
+    <main class="page landing-page container-fluid">
+        <section class="clean-block clean-hero row" style="background-image:url(&quot;assets/img/tech/image4.jpg&quot;);color:rgba(255, 255, 255, 0.30);">
 
             <div class="text support col-lg-4 ">
                 <h2>New to WILDE?</h2>
@@ -66,47 +69,36 @@
 
    
     </main>
-    <footer class="page-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
+    <div class="footer-dark">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
                 </div>
-                <div class="col-sm-3">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
+                <p class="copyright">Company Name © 2017</p>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <p>© 2018 Copyright Text</p>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
