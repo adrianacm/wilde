@@ -174,7 +174,7 @@ body{
 
 
 .footer-dark
-{padding:50px;color:#f0f9ff;background-color:#282d32}
+{padding:50px;color:#f0f9ff;background-color:#282d32;}
 
 .footer-dark h3{margin-top:0;margin-bottom:12px;font-weight:700;font-size:16px}
 .footer-dark ul{padding:0;list-style:none;line-height:1.6;font-size:14px;margin-bottom:0}
@@ -207,6 +207,7 @@ h5{
   background-color:#282d32 ;
   align-items: stretch;
   min-width:250px !important;
+  
 }
 
 .sidebar-wrapper li{
