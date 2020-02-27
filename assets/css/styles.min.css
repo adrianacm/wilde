@@ -39,7 +39,7 @@ body{
 }
 
 .navigation-clean {
-    background-color:#282d32 !important;
+    background-color:#1C1F20 !important;
     padding-top: 1rem;
     padding-bottom: .75rem;
     border-radius: 0;
@@ -172,9 +172,19 @@ body{
   padding-top: 14px;
 }
 
+.visible{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.editicon{
+  display: flex;
+  flex-direction: row;
+}
 
 .footer-dark
-{padding:50px;color:#f0f9ff;background-color:#282d32;}
+{padding:50px;color:#f0f9ff;background-color:#1C1F20;}
 
 .footer-dark h3{margin-top:0;margin-bottom:12px;font-weight:700;font-size:16px}
 .footer-dark ul{padding:0;list-style:none;line-height:1.6;font-size:14px;margin-bottom:0}
@@ -206,7 +216,8 @@ h5{
   display: flex;
   background-color:#282d32 ;
   align-items: stretch;
-  min-width:250px !important;
+  min-width:270px !important;
+  max-width: 300px;
   
 }
 
